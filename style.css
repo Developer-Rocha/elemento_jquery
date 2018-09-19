@@ -1,0 +1,56 @@
+/*
+* @Projeto UX-Developer
+* @author Fabrício Rocha
+* @version 1.0
+*/
+
+/* ============================ layout ============================= */
+html, body{
+	height: 100%;
+	overflow: auto;
+}
+
+/* -- Navbar -- */
+.img-logo{
+	height: 80px;
+	width: 90px;
+	display: block;
+	background: url('images/logo-w.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+.navbar-brand{
+	padding: 0px 15px;
+	margin-top: -15px;
+}
+
+nav.navbar-transparente{
+	background: rgba(0,0,0,0.5);
+	border: none;
+	padding: 20px 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+	font-weight: bolder;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #9bf0e1;
+}
+
+nav.menu-diferente{
+	padding: 10px 0px;
+}
+
+.logo-scroll{
+	height: 70px;
+	width: 70px;
+	margin-top: 8px; 
+}
+
+.jumbotron{
+	margin-top: 50px;
+}
+
